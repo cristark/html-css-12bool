@@ -40,7 +40,7 @@ body {
     margin: 5px;
 }
 
-.nest {
+.n-row div {
     background-color: salmon;
     border: 1px solid white;
 }
