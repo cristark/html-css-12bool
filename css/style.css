@@ -35,12 +35,12 @@ body {
   line-height: 150px;
 }
 
-.n-row {
+.container .row:last-child [class*="col-"] .row {
     height: 140px;
     margin: 5px;
 }
 
-.n-row div {
+.container .row:last-child [class*="col-"] .row > [class*="col-"] {
     background-color: salmon;
     border: 1px solid white;
 }
