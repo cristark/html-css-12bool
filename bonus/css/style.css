@@ -451,6 +451,7 @@ body {
 
 .minecraft .container .row-2 [class*="col-"]:nth-child(3) {
   background-color: #6aa241;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .minecraft .container .row-2 [class*="col-"]:nth-child(4) {
@@ -501,6 +502,7 @@ body {
 
 .minecraft .container .row-3 [class*="col-"]:nth-child(3) {
   background-color: #7eb94b;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
 .minecraft .container .row-3 [class*="col-"]:nth-child(4) {
@@ -576,6 +578,10 @@ body {
 .scenarios .container .row-2 [class*="col-"] {
   height: 500px;
   padding: 0 10px;
+}
+
+.scenarios .container .row-2 [class*="col-"]:hover {
+  padding: unset;
 }
 
 .scenarios .container .row-2 [class*="col-"] img {
