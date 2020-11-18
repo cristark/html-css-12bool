@@ -1,3 +1,31 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.clearfix::after {
+    content: "";
+    display: table;ù
+    clear: both;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+
 /* FRAMEWORK 12 COLONNE */
 .col-1 {
   width: calc(100% / 12 * 1);
