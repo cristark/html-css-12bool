@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework 12 Colonne</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/12boll.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Riga con 12 colonne -->
+        <div class="row clearfix">
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+        </div>
+
+        <!-- Riga con una singola colonna -->
+        <div class="row clearfix">
+            <div class="col-12"><span>12 col</span></div>
+        </div>
+
+        <!-- Riga 8 + 2 + 2 -->
+        <div class="row">
+            <div class="col-8"><span>8 col</span></div>
+            <div class="col-2"><span>2 col</span></div>
+            <div class="col-2"><span>2 col</span></div>
+        </div>
+
+        <!-- Riga 1 + 2 + 2 + 6 + 1 -->
+        <div class="row">
+            <div class="col-1"><span>1 col</span></div>
+            <div class="col-2"><span>2 col</span></div>
+            <div class="col-2"><span>2 col</span></div>
+            <div class="col-6"><span>6 col</span></div>
+            <div class="col-1"><span>1 col</span></div>
+        </div>
+
+        <!-- Riga con 2 colonne -->
+        <div class="row clearfix">
+            <div class="col-6">
+
+                <!-- Riga interna alla colonna 2 + 2 + 8 -->
+                <div class="n-row clearfix">
+                    <div class="nest col-2"><span>2 col</span></div>
+                    <div class="nest col-2"><span>2 col</span></div>
+                    <div class="nest col-8"><span>8 col</span></div>
+                </div>
+            </div>
+            <div class="col-6">
+
+                <!-- Riga interna alla colonna 6 + 6 -->
+                <div class="n-row clearfix">
+                    <div class="nest col-6"><span>6 col</span></div>
+                    <div class="nest col-6"><span>6 col</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
